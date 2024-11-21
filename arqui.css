@@ -1,0 +1,54 @@
+body {
+        background-color: #87CEEB;
+    }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #0078D7;
+    color: rgb(9, 120, 194);
+    padding: 1rem;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+nav ul li a {
+    color: rgb(18, 30, 194);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#hero {
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    color: rgb(7, 120, 226);
+    text-align: center;
+    padding: 5rem 1rem;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+.service img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    background: #333;
+    color: rgb(7, 103, 194);
+    padding: 1rem;
+}
